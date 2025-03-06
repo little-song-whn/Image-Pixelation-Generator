@@ -31,4 +31,4 @@ def pixelate(img_path, pixel_size=10, num_colors=16, save_path="example.png"):
     img_quantized.save(save_path)
     print(f"已保存像素画：{save_path}")
 
-pixelate("C:/Users/25771/OneDrive/桌面/新建文件夹/example2.png", pixel_size=15, num_colors=8, save_path="pixel_art_output.png")
+pixelate("your address", pixel_size=15, num_colors=8, save_path="pixel_art_output.png")
